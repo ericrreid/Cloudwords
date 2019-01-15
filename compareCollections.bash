@@ -6,10 +6,12 @@
 #  $mdbSourceUser
 #  $mdbSourcePassword
 #  $mdbSourceURI
-#  $mdbSourceSSL
 #  $mdbDestinationUser
 #  $mdbDestinationPassword
 #  $mdbDestinationURI
+
+# Sets the corresponding SSL command line argument if set
+#  $mdbSourceSSL
 #  $mdbDestinationSSL
 
 if [ -z "$mdbSourceUser" ]; then
